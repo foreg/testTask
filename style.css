@@ -1,0 +1,167 @@
+@font-face {
+    font-family: Europe;
+    src: url(fonts/Europe.otf);
+}
+@font-face {
+    font-family: 'fontb267362fe0bf162719681f797a756433';
+    src:url('https://nomail.com.ua/files/eot/b267362fe0bf162719681f797a756433.eot?#iefix') format('embedded-opentype'),
+        url('https://nomail.com.ua/files/woff/b267362fe0bf162719681f797a756433.woff') format('woff'),
+        url('https://nomail.com.ua/files/woff2/b267362fe0bf162719681f797a756433.woff2') format('woff2');
+}
+    
+@font-face { font-family: 'ArialMT';  src: local('ArialMT'), url('https://nomail.com.ua/files/woff/b267362fe0bf162719681f797a756433.woff') format('woff'); }
+@font-face {
+    font-family: 'fonte3e25078783f7c68baa17f05a6d4ae75';
+    src:url('https://nomail.com.ua/files/eot/e3e25078783f7c68baa17f05a6d4ae75.eot?#iefix') format('embedded-opentype'),
+        url('https://nomail.com.ua/files/woff/e3e25078783f7c68baa17f05a6d4ae75.woff') format('woff'),
+        url('https://nomail.com.ua/files/woff2/e3e25078783f7c68baa17f05a6d4ae75.woff2') format('woff2');
+}
+@font-face { font-family: 'Arial-BoldMT';  src: local('Arial-BoldMT'), url('https://nomail.com.ua/files/woff/e3e25078783f7c68baa17f05a6d4ae75.woff') format('woff'); }
+
+header {
+    margin: 20px 0px;
+}
+.header_tel {
+    font-family: Europe, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: rgb(235, 80, 23);
+    position: absolute;
+    top:30px;
+    right:20px;
+    font-size: 18px;
+}
+
+nav.main_nav {
+    background: #231f1f;
+    border: 1px solid #231f1f;
+    border-right: none;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: ArialMT;
+}
+  
+nav.second_nav {
+    color: #231f1f;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: ArialMT;
+    font-size: 12px;
+}
+
+nav.main_nav ul {
+    margin: 0;
+    padding: 0;
+}  
+nav.main_nav ul li {
+    list-style: none;
+    text-align: center;
+    border-left: 1px solid #eb5017;
+    border-right: 1px solid #eb5017;
+    border-top: none;
+    border-bottom: none;
+}
+nav.main_nav ul li:first-child {
+    border-left: none;
+}
+nav.main_nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+    padding: 10px 0;
+}
+nav {
+    display: table;
+    table-layout: fixed;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+ul li {
+      flex-grow: 1;
+}
+.red {
+    background-color: #eb5017;
+}
+
+.main {
+    background-color: #f2f2f2;
+    position: relative;
+    height: 380px;
+    width: 650px;
+    margin-left: 20px;
+    padding-top:15px;
+}
+
+.CalculatorSpan {
+    font-family: ArialMT;
+    font-size: 30px;
+    color: #eb5017;
+    margin-left:100px;
+}
+
+.Parameter {
+    margin-top:30px;
+    font-family: ArialMT;
+    font-size: 12px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    right: 8px;
+    background-color: #231f1f;
+    margin: 0 auto;
+    height: 40px;
+    padding-left:70px;
+    padding-top: 15px;
+    font-size: 12px;
+    font-family: ArialMT;
+}
+footer a {
+    color: rgb(231, 231, 231);
+}
+.input {
+    margin-left: 50px;
+    width:100px;
+}
+.inputRadio {
+    margin-left: 50px;
+}
+.calcButton {
+    padding: 10px;
+    background: linear-gradient(to bottom, #bdf435, #7fc600);
+    border: 1px solid #c1ff00;
+    border-radius: 10px;
+    font-family: Arial-BoldMT;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left:20px;
+}
+.calcButton:hover {
+    cursor: pointer;
+}
+.result {
+    margin-left: 20px;
+    font-family: Arial-BoldMT;
+    font-size:12px;
+    color: #395306;
+}
+.res {
+    font-family: ArialMT;
+    font-size:12px;
+}
+
+.range {
+    margin-left: 20px;
+    width: 200px;
+}
+
+
+a:visited {
+    color: #231f1f;
+}
+footer a:visited {
+    color: rgb(231, 231, 231);
+}
